@@ -388,8 +388,8 @@ Tem a certeza?</string>
     <string name="room_one_user_is_typing">%s está a escrever…</string>
     <string name="room_two_users_are_typing">%1$s e %2$s estão a escrever…</string>
     <string name="room_many_users_are_typing">%1$s, %2$s e outros estão a escrever…</string>
-    <string name="room_message_placeholder_encrypted">Enviar mensagem cifrada…</string>
-    <string name="room_message_placeholder_not_encrypted">Enviar mensagem (não cifrada)…</string>
+    <string name="room_message_placeholder_encrypted">Enviar mensagem encriptada…</string>
+    <string name="room_message_placeholder_not_encrypted">Enviar mensagem (não encriptada)…</string>
     <string name="room_offline_notification">A conexão com o servidor foi perdida.</string>
     <string name="room_unsent_messages_notification">Mensagens não enviadas. %1$s ou %2$s agora?</string>
     <string name="room_unknown_devices_messages_notification">Mensagens não enviadas devido à presença de dispositivos desconhecidos. %1$s ou %2$s agora?</string>
@@ -501,7 +501,6 @@ Tem a certeza?</string>
     <string name="settings_enable_this_device">Ativar notificações para este dispositivo</string>
     <string name="settings_turn_screen_on">Ligar o ecrã durante 3 segundos</string>
 
-    <string name="settings_containing_my_name">Msgs contendo o meu nome</string>
     <string name="settings_messages_in_one_to_one">Msgs em conversas diretas</string>
     <string name="settings_messages_in_group_chat">Msgs em conversas de grupo</string>
     <string name="settings_invited_to_room">Quando eu sou convidado para uma sala</string>
@@ -794,4 +793,40 @@ Dispositivos desconhecidos:</string>
     <string name="people_search_user_directory">LISTA DE UTILIZADORES (%s)</string>
     <string name="settings_start_on_boot">Iniciar no arranque</string>
     <string name="settings_clear_medias_cache">Limpar cache de multimédia</string>
+    <string name="light_theme">Tema Claro</string>
+    <string name="dark_theme">Tema Escuro</string>
+    <string name="black_them">Tema Preto</string>
+
+    <string name="login_mobile_device">Dispositivo Móvel</string>
+
+    <string name="settings_notification_ringtone">Som de notificação</string>
+    <string name="settings_12_24_timestamps">Utilizar formato de 12 horas (ex. 2:30pm)</string>
+    <string name="settings_hide_join_leave_messages">Ocultar mensagens de entrada/saída (convites/expulsões/banimentos não são afetados)</string>
+    <string name="settings_hide_avatar_display_name_changes_messages">Ocultar avatar e mostrar mudanças de nome</string>
+
+    <string name="widget_no_power_to_manage">Precisa de permissão para gerir os widgets nesta sala</string>
+    <string name="widget_creation_failure">Criação de widget falhou</string>
+    <string name="event_formatter_widget_added">%1$s adicionado por %2$s</string>
+    <string name="event_formatter_widget_removed">%1$s removido por %2$s</string>
+    <string name="settings_labs_create_conference_with_jitsi">Criar chamadas de conferência com o jitsi</string>
+    <string name="widget_delete_message_confirmation">Tem a certeza que quer remover o widget?</string>
+    <string name="active_widgets">Widgets ativos: %1$d</string>
+
+    // Widget Integration Manager
+    <string name="widget_integration_need_to_be_able_to_invite">Tem que poder convidar utilizadores para fazer isso.</string>
+    <string name="widget_integration_unable_to_create">Não foi possível criar o widget.</string>
+    <string name="widget_integration_failed_to_send_request">O envio do pedido falhou.</string>
+    <string name="widget_integration_room_not_recognised">Esta sala não é reconhecida.</string>
+    <string name="widget_integration_positive_power_level">Nível de utilizador tem que ser um inteiro positivo.</string>
+    <string name="widget_integration_must_be_in_room">Não se encontra nesta sala.</string>
+    <string name="widget_integration_no_permission_in_room">Não tem permissão para fazer isso nesta sala.</string>
+    <string name="widget_integration_missing_room_id">O _id da sala está em falta no pedido.</string>
+    <string name="widget_integration_missing_user_id">O user_id está em falta no pedido.</string>
+    <string name="widget_integration_room_not_visible">Sala %s não se encontra visível.</string>
+    <string name="settings_labs_matrix_apps">Apps Matrix</string>
+    <string name="room_add_matrix_apps">Adicionar apps Matrix</string>
+    <string name="add_matrix_apps_not_supported">Não é suportado neste dispositivo</string>
+<string name="notification_sync_in_progress">A sincronizar</string>
+    <string name="notification_listen_for_events">À escuta de eventos</string>
+
     </resources>
